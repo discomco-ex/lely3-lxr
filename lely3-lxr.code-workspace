@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../rgfaber/compose-dev-stack"
+		},
+		{
+			"path": "umbrella"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../rgfaber/m5x-sdk"
+		},
+		{
+			"path": "../../../../farmtrace/ftdp-docktrace-lelyapi3"
+		}
+	],
+	"settings": {}
+}

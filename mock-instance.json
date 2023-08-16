@@ -1,0 +1,81 @@
+{
+  "id": "instance.0892f81f-2475-4db0-a275-aa72295b594c",
+  "rev": null,
+  "manifests": {
+    "lelyV3": {
+      "id": "lelyV3",
+      "details": {
+        "name": "LelyApi3",
+        "description": "LelyApi3 Manifest 1 Description"
+      },
+      "version": {
+        "Major": 0,
+        "Minor": 2,
+        "Patch": 50
+      },
+      "packageId": "84fa56e6-4402-4283-b410-29c5fb522274",
+      "packageName": "FTDP.LelyAPI3.Install",
+      "installPath": "C:/Program Files (x86)/FarmTrace Connect/collectors/lelyV3/",
+      "executableName": "FTDP.LelyAPI3.WinExe",
+      "extension": ".exe",
+      "settings": {
+        "uRL": "http://localhost/t4c-api/T4C-API3.asmx",
+        "username": "plugin",
+        "password": "plugin",
+        "license": "SEhLMmk0V3dWRnllQlZNK2dwVmE0Z1NpMEtHMlk1Y3ZDNzF0TGp4SitUdjZWWTlkVGxoQUNXN0pjUldTVVJJZSt3bEVaQTZwYjVKdDhEWTN4dmN5Qk01WDFkT0M1b3kvSmVaVWJXU3Bqams9",
+        "daysOfData": "30",
+        "daysOfEMMData": "7",
+        "daysOfFeedData": "7",
+        "timeInterval": "86400000",
+        "wantedVersion": "null",
+        "outputPath": "plugins/lelyV3",
+        "zipFileName": "lely-v3_",
+        "zipFileDateTimeFormat": "yyyy-MM-ddTHH-mm"
+      }
+    },
+    "geaDP5": {
+      "id": "geaDP5",
+      "details": {
+        "name": "GeaDP5",
+        "description": "GeaDP5 Manifest 2 Description"
+      },
+      "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 57
+      },
+      "packageId": "73827c34-6bae-4703-8e3a-129e5ab18541",
+      "packageName": "FTDP.GEADP5.Install",
+      "installPath": "C:/Program Files (x86)/FarmTrace Connect/collectors/geadp5/",
+      "executableName": "FTDP.GEADP5.WinExe",
+      "extension": ".exe",
+      "settings": {
+      }
+    },
+    "delaval": {
+      "id": "delaval",
+      "details": {
+        "name": "Delaval",
+        "description": "Delaval Manifest 2 Description"
+      },
+      "version": {
+        "Major": 0,
+        "Minor": 1,
+        "Patch": 80
+      },
+      "packageId": "13621c33-a724-4713-a780-b983d04e4bb3",
+      "packageName": "FTDP.Delaval.Install",
+      "installPath": "C:/Program Files (x86)/FarmTrace Connect/collectors/delaval/",
+      "executableName": "FTDP.Delaval.WinExe",
+      "extension": ".exe",
+      "settings": {
+        "outputPath": "c:/DairyPln",
+        "timeInterval": "3600000",
+        "toolPath": "dlisodriver.exe",
+        "toolDelayMs": "15000",
+        "zipFileName": "delaval-delpro_",
+        "zipFileDateTimeFormat": "yyyy-MM-ddTHH-mm"
+      }
+    }
+  }
+}

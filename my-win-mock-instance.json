@@ -1,0 +1,50 @@
+{
+  "id": "instance.aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+  "rev": null,
+  "manifests": {
+    "lelyV3": {
+      "id": "lelyV3",
+      "details": {
+        "name": "LelyApi3",
+        "description": "LelyApi3 Manifest 1 Description"
+      },
+      "version": {
+        "major": 0,
+        "minor": 2,
+        "patch": 84
+      },
+      "packageId": "84fa56e6-4402-4283-b410-29c5fb522274",
+      "packageName": "FTDP.LelyAPI3.Install",
+      "installPath": "C:/Program Files (x86)/FarmTrace Connect/collectors/lelyV3/",
+      "executableName": "FTDP.LelyAPI3.WinExe.exe",
+      "extension": "",
+      "executionIntervalInMinutes": 20,
+      "settings": {
+        "url": "http://217.148.183.172/t4c-api/T4C-API3.asmx",
+        "username": "plugin",
+        "password": "plugin",
+        "license": "SEhLMmk0V3dWRnllQlZNK2dwVmE0Z1NpMEtHMlk1Y3ZDNzF0TGp4SitUdjZWWTlkVGxoQUNXN0pjUldTVVJJZSt3bEVaQTZwYjVKdDhEWTN4dmN5Qk01WDFkT0M1b3kvSmVaVWJXU3Bqams9",
+        "daysOfData": "30",
+        "daysOfActivityData": "30",
+        "daysOfCalvingData": "30",
+        "daysOfDayProductionData": "30",
+        "daysOfDryOffData": "30",
+        "daysOfFeedAmountData": "7",
+        "daysOfHealthTreatmentData": "30",
+        "daysOfHeatsData": "30",
+        "daysOfInseminationData": "30",
+        "daysOfMilkVisitData": "7",
+        "daysOfPregnancyData": "30",
+        "daysOfRoutingTaskData": "30",
+        "daysOfScoresData": "30",
+        "daysOfTransferData": "30",
+        "outputPath": "plugins/lelyV3",
+        "zipFileName": "lely-v3_",
+        "zipFileDateTimeFormat": "yyyy-MM-ddTHH-mm",
+        "debugMode": "false",
+        "logDebug": "false",
+        "dateTimeFormat": "yyyy-MM-ddTHH-mm"
+      }
+    }
+  }
+}
