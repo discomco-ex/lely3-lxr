@@ -1,0 +1,18 @@
+defmodule Lely3Harvester.GetActivitiesByFromDateAndUntilDate.FromApi do
+  @moduledoc false
+  alias Lely3Harvester.GetActivitiesByFromDateAndUntilDate.Request
+  
+  
+  @spec get_activities(String.t(), 
+          Lely3Harvester.Authenticate.Request.t(), 
+          Request.t()) :: Lely3Harvester.GetActivitiesByFromDateAndUntilDate.Result.t()
+  def get_activities(url, auth, request) do
+    token = url 
+            |> Lely3Harvester.Authenticate.authenticate(auth)
+  end
+
+
+  
+  
+  
+end

@@ -1,9 +1,9 @@
 defmodule Lely3Harvester.Worker do
   use GenServer
 
-  @impl GenServer
-  def init(init_arg) do
-    {:ok, init_arg}
+  # CLIENT
+  def get_pi(pid) do
+    GenServer.call(pid, :get_pi, :infinity)
   end
 
   def start_link(args) do
@@ -11,19 +11,25 @@ defmodule Lely3Harvester.Worker do
     |> GenServer.start_link(args)
   end
 
-  @impl GenServer
-  def handle_cast(msg, _accuracy) do
-    case msg do
-      {:get_pi} ->
-       {res, pi} = {:pi, 3.14159}
-       IO.inspect("Here is PI: #{pi}}")
-       {res, pi}
-      _ ->
-        {:haha}
-    end
+  ## SERVER  
+  def init(init_arg) do
+    {:ok, init_arg}
   end
 
-  # Interface Functions
+  def handle_call(:get_pi, _from, state) do
+    {:reply, {:pi, 3.14159}, state}
+  end
 
-  
+  @impl GenServer
+  def handle_info(msg, state) do
+    msg
+    |> IO.inspect(msg)
+
+    {:info, msg}
+  end
+
+  @impl GenServer
+  def handle_info(:get_pi, state \\ []) do
+    {:pi, 3.14}
+  end
 end

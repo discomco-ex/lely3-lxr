@@ -16,8 +16,6 @@ defmodule Lely3Harvester.Application do
       {Finch, name: Lely3Harvester.Finch},
       # Start a worker by calling: Lely3Harvester.Worker.start_link(args)
       {Lely3Harvester.Worker, name: :harvester_worker, args: args},
-      {Lely3Harvester.GetActivities.Server,
-       name: :get_activities_server, args: :get_activities_server}
     ]
 
     Supervisor.start_link(

@@ -14,6 +14,9 @@
 		},
 		{
 			"path": "../../../../farmtrace/ftdp-docktrace-lelyapi3"
+		},
+		{
+			"path": "../../../../farmtrace/ftdp-docktrace-gea"
 		}
 	],
 	"settings": {}
